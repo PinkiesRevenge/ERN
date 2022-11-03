@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New To Do</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="p-5 bg-success text-white text-center">
+        <h1>To Do list of things to do two</h1>
+        <p>legaly different from to do list of things to do too!</p>
+    </div>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img_avatar1.png" alt="ToDo2" style="width:40px;" class="rounded-pill">
+          </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Other</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">To Do List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Secret</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="ToDoItemTable">
+        <div id="data">
+            <input type="text" id="task" placeholder="Enter ToDo Item">
+            <input type="number" id="id" placeholder="Enter ID">
+            <input type="text" id="comment" placeholder="Enter Comments">
+            <button id="addTask">Add</button>
+        </div>
+        <table class = "table table-bordered">
+            <tr>
+                <th>ID</th>
+                <th>Task</th>
+                <th>Actions</th>
+                <th>Comments</th>
+            </tr>
+        </table>
+    </div>
+    <script src="./JS/alt.js"></script>
+</body>
+</html>
