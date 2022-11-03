@@ -1,4 +1,5 @@
 // Turing.com/kb/mysql-connection-with-node-js-using-sequelize-and-express
+//testing
 
 const express = require('express');
 const bodyParser = require('body-parser');
